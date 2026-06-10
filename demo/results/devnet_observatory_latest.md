@@ -1,0 +1,114 @@
+# Crystal DeFi Devnet Observatory Demo
+
+Generated UTC: `2026-06-10T17:05:02.874317+00:00`
+
+## Result
+
+```text
+ok: True
+contract: 0x5FbDB2315678afecb367f032d93F642f64180aa3
+rpc_url: http://127.0.0.1:8545
+challenge_marked: True
+challenge_pending: True
+challenge_resolved: True
+challenge_invalidated: True
+```
+
+## Scenario
+
+```text
+claimed_tree: ((10,20),(30,40))
+observed_tree: (10,(20,(30,40)))
+block_hash: 0x3e17e5396db09d344a51cde2980f5d85d4872e93ccdc8f29f38a7f81fe254c74
+tree_index: 0
+challenge_id: 0x0b1c3fef44490bddda6b76e626f07f0906db8f9c7357e227e43de6d0742e4e00
+```
+
+## Roots
+
+```text
+claimed_crystal_root: 0x0c4aedf82d02192b000000000000000000000000000000000000000000000000
+posted_wrong_root: 0x118dfd9b12cd3d0a000000000000000000000000000000000000000000000000
+claimed_witness_encoded: 0x038956ba36c62f1b0100179566aa16d21b27
+claimed_witness_encoded_length: 18
+claimed_merkle_proof_encoded: 0x0100bbfe0762ecf04769e499b88b12ef2549fa065e6d0608eb154f66ca62e251ba80
+claimed_merkle_proof_encoded_length: 34
+localized_v1_proof_bytes: 84
+commit_tx_calldata_bytes: 132
+challenge_tx_calldata_bytes: 324
+resolve_tx_calldata_bytes: 36
+claimed_anchor_sha256: e13ad6c5d84103737c574225681874461ad4fd1e8b32b7926795d750cd99ad4a
+observed_anchor_sha256: 59634389405ba4878b63bb1fcd9815bc208f9c4599879b7566a4b364de427ebe
+posted_merkle_root: 0xee3ac96a16b5bffff2563ef3c8ec7df539866c0c901b7945ac5419b920569d2e
+```
+
+## On-Chain Calls
+
+```text
+deploy_tx: 0x670595e2cca31594adb5df48098b2f86eaa59f245d2af58710b6e31c2e1779f0
+commit_tx: 0xc34c9eae24651c737dae5df865b1acbda763d3e849c90e606044520458cadf9c
+commit_gas_used: 183413
+challenge_tx: 0xda3a4e82c89aa6cdf33e595daa6af2e76df19b1ebd5b3ff1b61e024c3afc58d3
+challenge_gas_used: 358047
+resolve_tx: 0x03d1f635ddbf875dbee4051bcaf07884bdeaf19eb15845986f520a1137cf6f32
+resolve_gas_used: 74891
+anchored_status_after_commit_output: 1
+anchored_deadline_output: 1781197502 [1.781e9]
+anchored_status_after_submit_output: 2
+anchored_status_after_resolve_output: 4
+anchored_commitment_after_submit_output: 2
+0x118dfd9b12cd3d0a000000000000000000000000000000000000000000000000
+0xee3ac96a16b5bffff2563ef3c8ec7df539866c0c901b7945ac5419b920569d2e
+0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+1781111102 [1.781e9]
+1781197502 [1.781e9]
+anchored_commitment_after_resolve_output: 4
+0x118dfd9b12cd3d0a000000000000000000000000000000000000000000000000
+0xee3ac96a16b5bffff2563ef3c8ec7df539866c0c901b7945ac5419b920569d2e
+0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+1781111102 [1.781e9]
+1781197502 [1.781e9]
+anchored_challenge_pending_record_output: 1
+0x3e17e5396db09d344a51cde2980f5d85d4872e93ccdc8f29f38a7f81fe254c74
+0
+0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+0x118dfd9b12cd3d0a000000000000000000000000000000000000000000000000
+0xee3ac96a16b5bffff2563ef3c8ec7df539866c0c901b7945ac5419b920569d2e
+0x0c4aedf82d02192b000000000000000000000000000000000000000000000000
+0xee3ac96a16b5bffff2563ef3c8ec7df539866c0c901b7945ac5419b920569d2e
+0x4cf8b5478ccbad8aaff6d5d7a5224f0577a8ba3bd97b12dba9dc3081c30aa937
+1781111102 [1.781e9]
+1781114702 [1.781e9]
+anchored_challenge_resolved_record_output: 2
+0x3e17e5396db09d344a51cde2980f5d85d4872e93ccdc8f29f38a7f81fe254c74
+0
+0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+0x118dfd9b12cd3d0a000000000000000000000000000000000000000000000000
+0xee3ac96a16b5bffff2563ef3c8ec7df539866c0c901b7945ac5419b920569d2e
+0x0c4aedf82d02192b000000000000000000000000000000000000000000000000
+0xee3ac96a16b5bffff2563ef3c8ec7df539866c0c901b7945ac5419b920569d2e
+0x4cf8b5478ccbad8aaff6d5d7a5224f0577a8ba3bd97b12dba9dc3081c30aa937
+1781111102 [1.781e9]
+1781114702 [1.781e9]
+verify_call_output: true
+0x0c4aedf82d02192b000000000000000000000000000000000000000000000000
+witness_call_output: true
+0x0c4aedf82d02192b000000000000000000000000000000000000000000000000
+localized_path_call_output: true
+true
+0x0c4aedf82d02192b000000000000000000000000000000000000000000000000
+0xee3ac96a16b5bffff2563ef3c8ec7df539866c0c901b7945ac5419b920569d2e
+localized_path_binding_call_output: true
+is_challenged_output: true
+```
+
+## Boundary
+
+Crystal roots are used here as structural signals. The demo posts a
+wrong root and challenges it with a local Crystal path witness on a
+local Ethereum devnet. It also verifies the localized Merkle path for
+the same claimed path. The anchored commitment opens an explicit
+challenge window, records the localized mismatch as pending, then
+invalidates the posted commitment only after the response window is
+advanced and the challenge is resolved. Production economic
+consequences remain out of scope.

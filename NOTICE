@@ -1,0 +1,13 @@
+Crystal DeFi Open Core
+
+Copyright 2026 Arkhe Technologic.
+
+This package is the grant-facing open-core export of the Crystal DeFi
+structural-divergence monitoring prototype. It is licensed under Apache-2.0.
+
+The source workspace may contain separate BUSL/proprietary lanes. Those lanes
+are outside this generated open-core package unless their files are explicitly
+included here.
+
+The vendored `lib/forge-std` test dependency is third-party software and keeps
+its own MIT/Apache license files in that directory.

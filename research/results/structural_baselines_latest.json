@@ -1,0 +1,288 @@
+{
+  "generated_at": "2026-06-10T12:59:00Z",
+  "parameters": {
+    "max_leaves": 6
+  },
+  "elapsed_seconds": 1.958,
+  "rows": [
+    {
+      "leaf_count": 2,
+      "candidates": 2,
+      "commitments": [
+        {
+          "name": "crystal_8_byte",
+          "unique_roots": 2,
+          "collisions": 0,
+          "detects_all_structural_variants": true
+        },
+        {
+          "name": "domain_merkle_sha256",
+          "unique_roots": 2,
+          "collisions": 0,
+          "detects_all_structural_variants": true
+        },
+        {
+          "name": "ordered_flat_sha256",
+          "unique_roots": 2,
+          "collisions": 0,
+          "detects_all_structural_variants": true
+        },
+        {
+          "name": "sorted_multiset_sha256",
+          "unique_roots": 1,
+          "collisions": 1,
+          "detects_all_structural_variants": false
+        },
+        {
+          "name": "sorted_merkle_set_sha256",
+          "unique_roots": 1,
+          "collisions": 1,
+          "detects_all_structural_variants": false
+        }
+      ],
+      "first_collision": {
+        "crystal_8_byte": null,
+        "domain_merkle_sha256": null,
+        "ordered_flat_sha256": null,
+        "sorted_multiset_sha256": {
+          "root": "72bee5b7a1e96dd6ae962dc07c2ce3c4c88eb5ce6f8e0dc1e25f87111e0ef70e",
+          "tree_a": "(1,2)",
+          "tree_b": "(2,1)"
+        },
+        "sorted_merkle_set_sha256": {
+          "root": "6bcf0e2e93e0a18e22789aee965e6553f4fbe93f0acfc4a705d691c8311c4965",
+          "tree_a": "(1,2)",
+          "tree_b": "(2,1)"
+        }
+      }
+    },
+    {
+      "leaf_count": 3,
+      "candidates": 12,
+      "commitments": [
+        {
+          "name": "crystal_8_byte",
+          "unique_roots": 12,
+          "collisions": 0,
+          "detects_all_structural_variants": true
+        },
+        {
+          "name": "domain_merkle_sha256",
+          "unique_roots": 12,
+          "collisions": 0,
+          "detects_all_structural_variants": true
+        },
+        {
+          "name": "ordered_flat_sha256",
+          "unique_roots": 6,
+          "collisions": 6,
+          "detects_all_structural_variants": false
+        },
+        {
+          "name": "sorted_multiset_sha256",
+          "unique_roots": 1,
+          "collisions": 11,
+          "detects_all_structural_variants": false
+        },
+        {
+          "name": "sorted_merkle_set_sha256",
+          "unique_roots": 1,
+          "collisions": 11,
+          "detects_all_structural_variants": false
+        }
+      ],
+      "first_collision": {
+        "crystal_8_byte": null,
+        "domain_merkle_sha256": null,
+        "ordered_flat_sha256": {
+          "root": "616eb6adacbe1accbcb117723c8a5543efa19dd9bc9240bef02cbe04f4c2ede2",
+          "tree_a": "(1,(2,3))",
+          "tree_b": "((1,2),3)"
+        },
+        "sorted_multiset_sha256": {
+          "root": "a76902768b1c33beda75c5c61c3ae31def4eaf4c391cebdc0cb11fc384732b6b",
+          "tree_a": "(1,(2,3))",
+          "tree_b": "(1,(3,2))"
+        },
+        "sorted_merkle_set_sha256": {
+          "root": "d10d803ddb112e8bab6820729655f564e52117c0b1aa14fb264b81282d36f9a4",
+          "tree_a": "(1,(2,3))",
+          "tree_b": "(1,(3,2))"
+        }
+      }
+    },
+    {
+      "leaf_count": 4,
+      "candidates": 120,
+      "commitments": [
+        {
+          "name": "crystal_8_byte",
+          "unique_roots": 120,
+          "collisions": 0,
+          "detects_all_structural_variants": true
+        },
+        {
+          "name": "domain_merkle_sha256",
+          "unique_roots": 120,
+          "collisions": 0,
+          "detects_all_structural_variants": true
+        },
+        {
+          "name": "ordered_flat_sha256",
+          "unique_roots": 24,
+          "collisions": 96,
+          "detects_all_structural_variants": false
+        },
+        {
+          "name": "sorted_multiset_sha256",
+          "unique_roots": 1,
+          "collisions": 119,
+          "detects_all_structural_variants": false
+        },
+        {
+          "name": "sorted_merkle_set_sha256",
+          "unique_roots": 1,
+          "collisions": 119,
+          "detects_all_structural_variants": false
+        }
+      ],
+      "first_collision": {
+        "crystal_8_byte": null,
+        "domain_merkle_sha256": null,
+        "ordered_flat_sha256": {
+          "root": "b97e601b828930f4e15a4a04f2b19716d3da0d1060e012358f4e5898828675ea",
+          "tree_a": "(1,(2,(3,4)))",
+          "tree_b": "(1,((2,3),4))"
+        },
+        "sorted_multiset_sha256": {
+          "root": "32dffe975cdd2fff8a0ed44d84387286164abc2cbcaf18b055bcc6bcd309068a",
+          "tree_a": "(1,(2,(3,4)))",
+          "tree_b": "(1,(2,(4,3)))"
+        },
+        "sorted_merkle_set_sha256": {
+          "root": "fa02d31a63cc11cc624881e52af14af7a1c6ab745efa71021cb24086b9b1793f",
+          "tree_a": "(1,(2,(3,4)))",
+          "tree_b": "(1,(2,(4,3)))"
+        }
+      }
+    },
+    {
+      "leaf_count": 5,
+      "candidates": 1680,
+      "commitments": [
+        {
+          "name": "crystal_8_byte",
+          "unique_roots": 1570,
+          "collisions": 110,
+          "detects_all_structural_variants": false
+        },
+        {
+          "name": "domain_merkle_sha256",
+          "unique_roots": 1680,
+          "collisions": 0,
+          "detects_all_structural_variants": true
+        },
+        {
+          "name": "ordered_flat_sha256",
+          "unique_roots": 120,
+          "collisions": 1560,
+          "detects_all_structural_variants": false
+        },
+        {
+          "name": "sorted_multiset_sha256",
+          "unique_roots": 1,
+          "collisions": 1679,
+          "detects_all_structural_variants": false
+        },
+        {
+          "name": "sorted_merkle_set_sha256",
+          "unique_roots": 1,
+          "collisions": 1679,
+          "detects_all_structural_variants": false
+        }
+      ],
+      "first_collision": {
+        "crystal_8_byte": {
+          "root": "3f064c001040001f",
+          "tree_a": "(1,(2,(3,(4,5))))",
+          "tree_b": "(1,(2,(5,(4,3))))"
+        },
+        "domain_merkle_sha256": null,
+        "ordered_flat_sha256": {
+          "root": "fa3ff42e4dfeb9cdceea1426f107549840eb840eb379544e10efedf6eb8c5c38",
+          "tree_a": "(1,(2,(3,(4,5))))",
+          "tree_b": "(1,(2,((3,4),5)))"
+        },
+        "sorted_multiset_sha256": {
+          "root": "806ec37bf3bba606b26c4a50076d4ac95bb87e2e2bb45a45b628be8c417cc1a3",
+          "tree_a": "(1,(2,(3,(4,5))))",
+          "tree_b": "(1,(2,(3,(5,4))))"
+        },
+        "sorted_merkle_set_sha256": {
+          "root": "8c151232753124347f2dd478e69ecb913a88c2a97eb7a86cb147833848d91d76",
+          "tree_a": "(1,(2,(3,(4,5))))",
+          "tree_b": "(1,(2,(3,(5,4))))"
+        }
+      }
+    },
+    {
+      "leaf_count": 6,
+      "candidates": 30240,
+      "commitments": [
+        {
+          "name": "crystal_8_byte",
+          "unique_roots": 26702,
+          "collisions": 3538,
+          "detects_all_structural_variants": false
+        },
+        {
+          "name": "domain_merkle_sha256",
+          "unique_roots": 30240,
+          "collisions": 0,
+          "detects_all_structural_variants": true
+        },
+        {
+          "name": "ordered_flat_sha256",
+          "unique_roots": 720,
+          "collisions": 29520,
+          "detects_all_structural_variants": false
+        },
+        {
+          "name": "sorted_multiset_sha256",
+          "unique_roots": 1,
+          "collisions": 30239,
+          "detects_all_structural_variants": false
+        },
+        {
+          "name": "sorted_merkle_set_sha256",
+          "unique_roots": 1,
+          "collisions": 30239,
+          "detects_all_structural_variants": false
+        }
+      ],
+      "first_collision": {
+        "crystal_8_byte": {
+          "root": "1f86888030d43c1f",
+          "tree_a": "(1,(2,(3,(4,(5,6)))))",
+          "tree_b": "(1,(2,(3,(4,(6,5)))))"
+        },
+        "domain_merkle_sha256": null,
+        "ordered_flat_sha256": {
+          "root": "e92cb99f9de1d94fe1a87df96d2ec833afeac17d73db9cdc185c7476f2f5529a",
+          "tree_a": "(1,(2,(3,(4,(5,6)))))",
+          "tree_b": "(1,(2,(3,((4,5),6))))"
+        },
+        "sorted_multiset_sha256": {
+          "root": "036cd0764a2e8251accaf49e865066b7a3d498e20cea98fcb763ac8d8555880d",
+          "tree_a": "(1,(2,(3,(4,(5,6)))))",
+          "tree_b": "(1,(2,(3,(4,(6,5)))))"
+        },
+        "sorted_merkle_set_sha256": {
+          "root": "c93bb43c84a49774fbb6ce5834b8e88ff03ce707eedf167adc49afa9a297e514",
+          "tree_a": "(1,(2,(3,(4,(5,6)))))",
+          "tree_b": "(1,(2,(3,(4,(6,5)))))"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,550 @@
+{
+  "ok": true,
+  "generated_at_utc": "2026-06-10T17:05:02.874317+00:00",
+  "rpc_url": "http://127.0.0.1:8545",
+  "contract_address": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+  "challenger": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266",
+  "deploy_tx": "0x670595e2cca31594adb5df48098b2f86eaa59f245d2af58710b6e31c2e1779f0",
+  "init_txs": [
+    {
+      "head": 0,
+      "tx": "0x6a675358332a5d5a32f637805a99a63ce91133e844ee59812744a428e2e7c8ed",
+      "receipt": {
+        "type": "0x2",
+        "status": "0x1",
+        "cumulativeGasUsed": "0x16852",
+        "logs": [],
+        "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "transactionHash": "0x6a675358332a5d5a32f637805a99a63ce91133e844ee59812744a428e2e7c8ed",
+        "transactionIndex": "0x0",
+        "blockHash": "0x5e177864418fae1bdd0ff1136511d0270e671fcc1a117cf26a46e104e42940b6",
+        "blockNumber": "0x2",
+        "gasUsed": "0x16852",
+        "effectiveGasPrice": "0x35cad0c8",
+        "blobGasPrice": "0x1",
+        "from": "0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266",
+        "to": "0x5fbdb2315678afecb367f032d93f642f64180aa3",
+        "contractAddress": null
+      }
+    },
+    {
+      "head": 1,
+      "tx": "0x7250120e58189ba2c4fdb3df0230bfb21a27a3e053873dda29d77a1a6e669eeb",
+      "receipt": {
+        "type": "0x2",
+        "status": "0x1",
+        "cumulativeGasUsed": "0x167f2",
+        "logs": [],
+        "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "transactionHash": "0x7250120e58189ba2c4fdb3df0230bfb21a27a3e053873dda29d77a1a6e669eeb",
+        "transactionIndex": "0x0",
+        "blockHash": "0x291782af1f952f55c7048dc397366f1a547faf38542065101c342fb260bf4c99",
+        "blockNumber": "0x3",
+        "gasUsed": "0x167f2",
+        "effectiveGasPrice": "0x2f1c0c8c",
+        "blobGasPrice": "0x1",
+        "from": "0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266",
+        "to": "0x5fbdb2315678afecb367f032d93f642f64180aa3",
+        "contractAddress": null
+      }
+    },
+    {
+      "head": 2,
+      "tx": "0x28b9e8d43c99cb016beb6dd9981dc0179579acb9886ece5ecb526db51acbbbe9",
+      "receipt": {
+        "type": "0x2",
+        "status": "0x1",
+        "cumulativeGasUsed": "0x16822",
+        "logs": [],
+        "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "transactionHash": "0x28b9e8d43c99cb016beb6dd9981dc0179579acb9886ece5ecb526db51acbbbe9",
+        "transactionIndex": "0x0",
+        "blockHash": "0xc45672ee18ed5cd0bfbed61241b85ce1671762c214348cb7442506448b2ee67e",
+        "blockNumber": "0x4",
+        "gasUsed": "0x16822",
+        "effectiveGasPrice": "0x2941cdb9",
+        "blobGasPrice": "0x1",
+        "from": "0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266",
+        "to": "0x5fbdb2315678afecb367f032d93f642f64180aa3",
+        "contractAddress": null
+      }
+    },
+    {
+      "head": 3,
+      "tx": "0x9ac2ea6b0f3ca50597feea31957327b957a072e76444364e46c14116e6427d70",
+      "receipt": {
+        "type": "0x2",
+        "status": "0x1",
+        "cumulativeGasUsed": "0x167fe",
+        "logs": [],
+        "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "transactionHash": "0x9ac2ea6b0f3ca50597feea31957327b957a072e76444364e46c14116e6427d70",
+        "transactionIndex": "0x0",
+        "blockHash": "0xec156002565b4d92a815e4e1f3f586d423bf32a7a36210e1112319906e70b014",
+        "blockNumber": "0x5",
+        "gasUsed": "0x167fe",
+        "effectiveGasPrice": "0x2421b150",
+        "blobGasPrice": "0x1",
+        "from": "0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266",
+        "to": "0x5fbdb2315678afecb367f032d93f642f64180aa3",
+        "contractAddress": null
+      }
+    },
+    {
+      "head": 4,
+      "tx": "0x9c49ed4d0fd2c544a1461d7831207bd35a8e88f6b133bad126c806b9761e4cb3",
+      "receipt": {
+        "type": "0x2",
+        "status": "0x1",
+        "cumulativeGasUsed": "0x167da",
+        "logs": [],
+        "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "transactionHash": "0x9c49ed4d0fd2c544a1461d7831207bd35a8e88f6b133bad126c806b9761e4cb3",
+        "transactionIndex": "0x0",
+        "blockHash": "0x17d3f655821a2dff80f1335a6f979d06bb4496726b7b67ead052d7274c0e9c70",
+        "blockNumber": "0x6",
+        "gasUsed": "0x167da",
+        "effectiveGasPrice": "0x1fa495ad",
+        "blobGasPrice": "0x1",
+        "from": "0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266",
+        "to": "0x5fbdb2315678afecb367f032d93f642f64180aa3",
+        "contractAddress": null
+      }
+    },
+    {
+      "head": 5,
+      "tx": "0x7cd800d065145bb6b8f0de5b7d419f621bd121f46d9e413605e380e3ac187d0c",
+      "receipt": {
+        "type": "0x2",
+        "status": "0x1",
+        "cumulativeGasUsed": "0x167c2",
+        "logs": [],
+        "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "transactionHash": "0x7cd800d065145bb6b8f0de5b7d419f621bd121f46d9e413605e380e3ac187d0c",
+        "transactionIndex": "0x0",
+        "blockHash": "0x25ea740c4f5e1fa60dbd592569e51f2175bc82e8ad3c056215ad263205c40da0",
+        "blockNumber": "0x7",
+        "gasUsed": "0x167c2",
+        "effectiveGasPrice": "0x1bb63af4",
+        "blobGasPrice": "0x1",
+        "from": "0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266",
+        "to": "0x5fbdb2315678afecb367f032d93f642f64180aa3",
+        "contractAddress": null
+      }
+    },
+    {
+      "head": 6,
+      "tx": "0x8f8ebb37527c3df957d4888d4b2fef67d60da44fba13dd8157e995beee9c9a7e",
+      "receipt": {
+        "type": "0x2",
+        "status": "0x1",
+        "cumulativeGasUsed": "0x167f2",
+        "logs": [],
+        "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "transactionHash": "0x8f8ebb37527c3df957d4888d4b2fef67d60da44fba13dd8157e995beee9c9a7e",
+        "transactionIndex": "0x0",
+        "blockHash": "0x7f8bc2552cd8c13fa65492d0c9395e7f136dd7bed2b8f2a5a30a7d6f8435e6bf",
+        "blockNumber": "0x8",
+        "gasUsed": "0x167f2",
+        "effectiveGasPrice": "0x1844e56e",
+        "blobGasPrice": "0x1",
+        "from": "0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266",
+        "to": "0x5fbdb2315678afecb367f032d93f642f64180aa3",
+        "contractAddress": null
+      }
+    },
+    {
+      "head": 7,
+      "tx": "0xf425c216ff2e6fbf6b2e6a0e79311a10db0f96c66967b284917e94d2692103b8",
+      "receipt": {
+        "type": "0x2",
+        "status": "0x1",
+        "cumulativeGasUsed": "0x1683a",
+        "logs": [],
+        "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "transactionHash": "0xf425c216ff2e6fbf6b2e6a0e79311a10db0f96c66967b284917e94d2692103b8",
+        "transactionIndex": "0x0",
+        "blockHash": "0x067f571e5d9c81dd598e56ccec1f703661348ce730e54c08b24448f5cd2a6bf2",
+        "blockNumber": "0x9",
+        "gasUsed": "0x1683a",
+        "effectiveGasPrice": "0x15410e13",
+        "blobGasPrice": "0x1",
+        "from": "0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266",
+        "to": "0x5fbdb2315678afecb367f032d93f642f64180aa3",
+        "contractAddress": null
+      }
+    }
+  ],
+  "finalize_tx": "0x5572228a6f9896904b8b143781028287e14ac82b43f76712ade0ccbfd88dda60",
+  "commit_tx": "0xc34c9eae24651c737dae5df865b1acbda763d3e849c90e606044520458cadf9c",
+  "challenge_tx": "0xda3a4e82c89aa6cdf33e595daa6af2e76df19b1ebd5b3ff1b61e024c3afc58d3",
+  "resolve_tx": "0x03d1f635ddbf875dbee4051bcaf07884bdeaf19eb15845986f520a1137cf6f32",
+  "commit_gas_used": 183413,
+  "challenge_gas_used": 358047,
+  "resolve_gas_used": 74891,
+  "claimed_tree": "((10,20),(30,40))",
+  "observed_tree": "(10,(20,(30,40)))",
+  "claimed_package": {
+    "encoding_version": "crystal-defi-tree-v1",
+    "leaf_mapping_version": "uint8-leaf-state-v1",
+    "anchor_domain": "crystal-defi:v1:tree",
+    "table_domain": "crystal-defi:v1:component-tables",
+    "table_format": "component_4x4_tables_unpacked_bytes",
+    "table_commitment_sha256": "8191034a4a551af5bf47691af3b83465b952d730e3f0f6f78064a203d9b21c38",
+    "crystal_root": [
+      12,
+      74,
+      237,
+      248,
+      45,
+      2,
+      25,
+      43
+    ],
+    "crystal_root_hex": "0c4aedf82d02192b000000000000000000000000000000000000000000000000",
+    "anchor_sha256": "e13ad6c5d84103737c574225681874461ad4fd1e8b32b7926795d750cd99ad4a",
+    "merkle_root_sha256": "ee3ac96a16b5bffff2563ef3c8ec7df539866c0c901b7945ac5419b920569d2e",
+    "calldata": "0x0101000a0a0a0a0a0a0a0a00141414141414141401001e1e1e1e1e1e1e1e002828282828282828",
+    "calldata_length": 39,
+    "structure": "((L,L),(L,L))",
+    "leaves": [
+      10,
+      20,
+      30,
+      40
+    ],
+    "depth": 2,
+    "trace_lengths": [
+      7,
+      7,
+      7,
+      7,
+      7,
+      7,
+      7,
+      7
+    ]
+  },
+  "observed_package": {
+    "encoding_version": "crystal-defi-tree-v1",
+    "leaf_mapping_version": "uint8-leaf-state-v1",
+    "anchor_domain": "crystal-defi:v1:tree",
+    "table_domain": "crystal-defi:v1:component-tables",
+    "table_format": "component_4x4_tables_unpacked_bytes",
+    "table_commitment_sha256": "8191034a4a551af5bf47691af3b83465b952d730e3f0f6f78064a203d9b21c38",
+    "crystal_root": [
+      17,
+      141,
+      253,
+      155,
+      18,
+      205,
+      61,
+      10
+    ],
+    "crystal_root_hex": "118dfd9b12cd3d0a000000000000000000000000000000000000000000000000",
+    "anchor_sha256": "59634389405ba4878b63bb1fcd9815bc208f9c4599879b7566a4b364de427ebe",
+    "merkle_root_sha256": "08c2b2187f57094c5a06d1143d4bad46840302d0ad10485e221986aca4ba03e4",
+    "calldata": "0x01000a0a0a0a0a0a0a0a0100141414141414141401001e1e1e1e1e1e1e1e002828282828282828",
+    "calldata_length": 39,
+    "structure": "(L,(L,(L,L)))",
+    "leaves": [
+      10,
+      20,
+      30,
+      40
+    ],
+    "depth": 3,
+    "trace_lengths": [
+      7,
+      7,
+      7,
+      7,
+      7,
+      7,
+      7,
+      7
+    ]
+  },
+  "challenge_v1_payload": {
+    "payload_version": "crystal-defi-challenge-v1-draft",
+    "challenge_type": "structural_divergence",
+    "same_sorted_leaves": true,
+    "different_crystal_root": true,
+    "different_anchor": true,
+    "heads_that_differ": 8,
+    "localization": {
+      "path": "root.L",
+      "difference": "node_type_mismatch",
+      "a": "internal",
+      "b": "leaf"
+    },
+    "local_crystal_witnesses": {
+      "claimed": {
+        "witness_version": "crystal-defi-local-crystal-witness-v1",
+        "path": "root.L",
+        "available": true,
+        "target": {
+          "node_type": "internal",
+          "leaf_value": null,
+          "structure": "(L,L)",
+          "crystal_root": [
+            3,
+            137,
+            86,
+            186,
+            54,
+            198,
+            47,
+            27
+          ],
+          "merkle_hash_sha256": "4cf8b5478ccbad8aaff6d5d7a5224f0577a8ba3bd97b12dba9dc3081c30aa937"
+        },
+        "steps_from_node_to_root": [
+          {
+            "sibling_side": "R",
+            "sibling_crystal_root": [
+              23,
+              149,
+              102,
+              170,
+              22,
+              210,
+              27,
+              39
+            ],
+            "sibling_merkle_hash_sha256": "bbfe0762ecf04769e499b88b12ef2549fa065e6d0608eb154f66ca62e251ba80",
+            "sibling_structure": "(L,L)"
+          }
+        ],
+        "expected_root": [
+          12,
+          74,
+          237,
+          248,
+          45,
+          2,
+          25,
+          43
+        ],
+        "expected_root_hex": "0c4aedf82d02192b000000000000000000000000000000000000000000000000",
+        "boundary": "Local Crystal recomputation witness only. Pair with the Merkle proof and anchor digest to bind the localized node cryptographically.",
+        "computed_root": [
+          12,
+          74,
+          237,
+          248,
+          45,
+          2,
+          25,
+          43
+        ],
+        "computed_root_hex": "0c4aedf82d02192b000000000000000000000000000000000000000000000000",
+        "valid": true,
+        "encoded": "0x038956ba36c62f1b0100179566aa16d21b27",
+        "encoded_length": 18
+      },
+      "observed": {
+        "witness_version": "crystal-defi-local-crystal-witness-v1",
+        "path": "root.L",
+        "available": true,
+        "target": {
+          "node_type": "leaf",
+          "leaf_value": 10,
+          "structure": "L",
+          "crystal_root": [
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10
+          ],
+          "merkle_hash_sha256": "67ebbd370daa02ba9aadd05d8e091e862d0d8bcadafdf2a22360240a42fe922e"
+        },
+        "steps_from_node_to_root": [
+          {
+            "sibling_side": "R",
+            "sibling_crystal_root": [
+              54,
+              12,
+              174,
+              33,
+              12,
+              83,
+              5,
+              45
+            ],
+            "sibling_merkle_hash_sha256": "e34894d6808065397d72586854d58ff0c02bbd15b6b3b5b00a00f7687d6f9b10",
+            "sibling_structure": "(L,(L,L))"
+          }
+        ],
+        "expected_root": [
+          17,
+          141,
+          253,
+          155,
+          18,
+          205,
+          61,
+          10
+        ],
+        "expected_root_hex": "118dfd9b12cd3d0a000000000000000000000000000000000000000000000000",
+        "boundary": "Local Crystal recomputation witness only. Pair with the Merkle proof and anchor digest to bind the localized node cryptographically.",
+        "computed_root": [
+          17,
+          141,
+          253,
+          155,
+          18,
+          205,
+          61,
+          10
+        ],
+        "computed_root_hex": "118dfd9b12cd3d0a000000000000000000000000000000000000000000000000",
+        "valid": true,
+        "encoded": "0x0a0a0a0a0a0a0a0a0100360cae210c53052d",
+        "encoded_length": 18
+      }
+    },
+    "local_merkle_proofs": {
+      "claimed": {
+        "path": "root.L",
+        "available": true,
+        "node_type": "internal",
+        "leaf_value": null,
+        "node_hash_sha256": "4cf8b5478ccbad8aaff6d5d7a5224f0577a8ba3bd97b12dba9dc3081c30aa937",
+        "merkle_root_sha256": "ee3ac96a16b5bffff2563ef3c8ec7df539866c0c901b7945ac5419b920569d2e",
+        "siblings_from_node_to_root": [
+          {
+            "side": "R",
+            "hash": "bbfe0762ecf04769e499b88b12ef2549fa065e6d0608eb154f66ca62e251ba80"
+          }
+        ],
+        "encoded": "0x0100bbfe0762ecf04769e499b88b12ef2549fa065e6d0608eb154f66ca62e251ba80",
+        "encoded_length": 34,
+        "proof_bytes_minimal": 64
+      },
+      "observed": {
+        "path": "root.L",
+        "available": true,
+        "node_type": "leaf",
+        "leaf_value": 10,
+        "node_hash_sha256": "67ebbd370daa02ba9aadd05d8e091e862d0d8bcadafdf2a22360240a42fe922e",
+        "merkle_root_sha256": "08c2b2187f57094c5a06d1143d4bad46840302d0ad10485e221986aca4ba03e4",
+        "siblings_from_node_to_root": [
+          {
+            "side": "R",
+            "hash": "e34894d6808065397d72586854d58ff0c02bbd15b6b3b5b00a00f7687d6f9b10"
+          }
+        ],
+        "encoded": "0x0100e34894d6808065397d72586854d58ff0c02bbd15b6b3b5b00a00f7687d6f9b10",
+        "encoded_length": 34,
+        "proof_bytes_minimal": 65
+      }
+    },
+    "claimed_commitment": {
+      "encoding_version": "crystal-defi-tree-v1",
+      "leaf_mapping_version": "uint8-leaf-state-v1",
+      "anchor_domain": "crystal-defi:v1:tree",
+      "table_domain": "crystal-defi:v1:component-tables",
+      "table_format": "component_4x4_tables_unpacked_bytes",
+      "table_commitment_sha256": "8191034a4a551af5bf47691af3b83465b952d730e3f0f6f78064a203d9b21c38",
+      "crystal_root": [
+        12,
+        74,
+        237,
+        248,
+        45,
+        2,
+        25,
+        43
+      ],
+      "crystal_root_hex": "0c4aedf82d02192b000000000000000000000000000000000000000000000000",
+      "anchor_sha256": "e13ad6c5d84103737c574225681874461ad4fd1e8b32b7926795d750cd99ad4a",
+      "merkle_root_sha256": "ee3ac96a16b5bffff2563ef3c8ec7df539866c0c901b7945ac5419b920569d2e",
+      "structure": "((L,L),(L,L))",
+      "leaves": [
+        10,
+        20,
+        30,
+        40
+      ],
+      "depth": 2
+    },
+    "observed_commitment": {
+      "encoding_version": "crystal-defi-tree-v1",
+      "leaf_mapping_version": "uint8-leaf-state-v1",
+      "anchor_domain": "crystal-defi:v1:tree",
+      "table_domain": "crystal-defi:v1:component-tables",
+      "table_format": "component_4x4_tables_unpacked_bytes",
+      "table_commitment_sha256": "8191034a4a551af5bf47691af3b83465b952d730e3f0f6f78064a203d9b21c38",
+      "crystal_root": [
+        17,
+        141,
+        253,
+        155,
+        18,
+        205,
+        61,
+        10
+      ],
+      "crystal_root_hex": "118dfd9b12cd3d0a000000000000000000000000000000000000000000000000",
+      "anchor_sha256": "59634389405ba4878b63bb1fcd9815bc208f9c4599879b7566a4b364de427ebe",
+      "merkle_root_sha256": "08c2b2187f57094c5a06d1143d4bad46840302d0ad10485e221986aca4ba03e4",
+      "structure": "(L,(L,(L,L)))",
+      "leaves": [
+        10,
+        20,
+        30,
+        40
+      ],
+      "depth": 3
+    },
+    "full_tree_calldata_included": false,
+    "boundary": "Draft V1 removes full-tree calldata and carries local Crystal witnesses plus local Merkle proofs. Solidity verifies the local Crystal path and Merkle path, and the anchored challenge binds their path encodings plus the expected Merkle root to a posted per-tree anchor. The compact verifier now has active, challenged, finalized, and invalidated commitment states plus a pending-to-resolved localized challenge timeout. Remaining hardening gates are sound counterproof semantics, economic consequences, and production finality integration."
+  },
+  "claimed_witness_encoded": "0x038956ba36c62f1b0100179566aa16d21b27",
+  "claimed_witness_encoded_length": 18,
+  "claimed_merkle_proof_encoded": "0x0100bbfe0762ecf04769e499b88b12ef2549fa065e6d0608eb154f66ca62e251ba80",
+  "claimed_merkle_proof_encoded_length": 34,
+  "target_merkle_hash_bytes": 32,
+  "localized_v1_proof_bytes": 84,
+  "full_tree_calldata_bytes": 39,
+  "commit_tx_calldata": "0x04661eb13e17e5396db09d344a51cde2980f5d85d4872e93ccdc8f29f38a7f81fe254c740000000000000000000000000000000000000000000000000000000000000000118dfd9b12cd3d0a000000000000000000000000000000000000000000000000ee3ac96a16b5bffff2563ef3c8ec7df539866c0c901b7945ac5419b920569d2e",
+  "commit_tx_calldata_bytes": 132,
+  "challenge_tx_calldata": "0xb3398e843e17e5396db09d344a51cde2980f5d85d4872e93ccdc8f29f38a7f81fe254c74000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000a04cf8b5478ccbad8aaff6d5d7a5224f0577a8ba3bd97b12dba9dc3081c30aa93700000000000000000000000000000000000000000000000000000000000000e00000000000000000000000000000000000000000000000000000000000000012038956ba36c62f1b0100179566aa16d21b27000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000220100bbfe0762ecf04769e499b88b12ef2549fa065e6d0608eb154f66ca62e251ba80000000000000000000000000000000000000000000000000000000000000",
+  "challenge_tx_calldata_bytes": 324,
+  "resolve_tx_calldata": "0x37c7c7050b1c3fef44490bddda6b76e626f07f0906db8f9c7357e227e43de6d0742e4e00",
+  "resolve_tx_calldata_bytes": 36,
+  "posted_wrong_root": "0x118dfd9b12cd3d0a000000000000000000000000000000000000000000000000",
+  "posted_merkle_root": "0xee3ac96a16b5bffff2563ef3c8ec7df539866c0c901b7945ac5419b920569d2e",
+  "block_hash": "0x3e17e5396db09d344a51cde2980f5d85d4872e93ccdc8f29f38a7f81fe254c74",
+  "tree_index": 0,
+  "anchored_challenge_id": "0x0b1c3fef44490bddda6b76e626f07f0906db8f9c7357e227e43de6d0742e4e00",
+  "anchored_challenge_record_output": "2\n0x3e17e5396db09d344a51cde2980f5d85d4872e93ccdc8f29f38a7f81fe254c74\n0\n0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266\n0x118dfd9b12cd3d0a000000000000000000000000000000000000000000000000\n0xee3ac96a16b5bffff2563ef3c8ec7df539866c0c901b7945ac5419b920569d2e\n0x0c4aedf82d02192b000000000000000000000000000000000000000000000000\n0xee3ac96a16b5bffff2563ef3c8ec7df539866c0c901b7945ac5419b920569d2e\n0x4cf8b5478ccbad8aaff6d5d7a5224f0577a8ba3bd97b12dba9dc3081c30aa937\n1781111102 [1.781e9]\n1781114702 [1.781e9]",
+  "anchored_challenge_pending_record_output": "1\n0x3e17e5396db09d344a51cde2980f5d85d4872e93ccdc8f29f38a7f81fe254c74\n0\n0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266\n0x118dfd9b12cd3d0a000000000000000000000000000000000000000000000000\n0xee3ac96a16b5bffff2563ef3c8ec7df539866c0c901b7945ac5419b920569d2e\n0x0c4aedf82d02192b000000000000000000000000000000000000000000000000\n0xee3ac96a16b5bffff2563ef3c8ec7df539866c0c901b7945ac5419b920569d2e\n0x4cf8b5478ccbad8aaff6d5d7a5224f0577a8ba3bd97b12dba9dc3081c30aa937\n1781111102 [1.781e9]\n1781114702 [1.781e9]",
+  "anchored_challenge_resolved_record_output": "2\n0x3e17e5396db09d344a51cde2980f5d85d4872e93ccdc8f29f38a7f81fe254c74\n0\n0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266\n0x118dfd9b12cd3d0a000000000000000000000000000000000000000000000000\n0xee3ac96a16b5bffff2563ef3c8ec7df539866c0c901b7945ac5419b920569d2e\n0x0c4aedf82d02192b000000000000000000000000000000000000000000000000\n0xee3ac96a16b5bffff2563ef3c8ec7df539866c0c901b7945ac5419b920569d2e\n0x4cf8b5478ccbad8aaff6d5d7a5224f0577a8ba3bd97b12dba9dc3081c30aa937\n1781111102 [1.781e9]\n1781114702 [1.781e9]",
+  "anchored_status_after_commit_output": "1",
+  "anchored_deadline_output": "1781197502 [1.781e9]",
+  "anchored_status_after_challenge_output": "4",
+  "anchored_status_after_submit_output": "2",
+  "anchored_status_after_resolve_output": "4",
+  "anchored_commitment_after_challenge_output": "4\n0x118dfd9b12cd3d0a000000000000000000000000000000000000000000000000\n0xee3ac96a16b5bffff2563ef3c8ec7df539866c0c901b7945ac5419b920569d2e\n0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266\n1781111102 [1.781e9]\n1781197502 [1.781e9]",
+  "anchored_commitment_after_submit_output": "2\n0x118dfd9b12cd3d0a000000000000000000000000000000000000000000000000\n0xee3ac96a16b5bffff2563ef3c8ec7df539866c0c901b7945ac5419b920569d2e\n0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266\n1781111102 [1.781e9]\n1781197502 [1.781e9]",
+  "anchored_commitment_after_resolve_output": "4\n0x118dfd9b12cd3d0a000000000000000000000000000000000000000000000000\n0xee3ac96a16b5bffff2563ef3c8ec7df539866c0c901b7945ac5419b920569d2e\n0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266\n1781111102 [1.781e9]\n1781197502 [1.781e9]",
+  "verify_call_output": "true\n0x0c4aedf82d02192b000000000000000000000000000000000000000000000000",
+  "witness_call_output": "true\n0x0c4aedf82d02192b000000000000000000000000000000000000000000000000",
+  "localized_path_call_output": "true\ntrue\n0x0c4aedf82d02192b000000000000000000000000000000000000000000000000\n0xee3ac96a16b5bffff2563ef3c8ec7df539866c0c901b7945ac5419b920569d2e",
+  "localized_path_binding_call_output": "true",
+  "is_challenged_output": "true",
+  "challenge_marked": true,
+  "challenge_pending": true,
+  "challenge_resolved": true,
+  "challenge_status_challenged": true,
+  "localized_path_bound": true,
+  "challenge_invalidated": true,
+  "boundary": "Crystal localizes; hash anchors prove."
+}

@@ -1,0 +1,102 @@
+{
+  "generated_at": "2026-06-10T16:27:04Z",
+  "boundary": "V0 Crystal package includes the full encoded tree. Anchored V1 removes full-tree calldata from the challenge path and measures the local Crystal witness plus same-path Merkle proof. Merkle/SSZ/sparse rows are membership/update proof surfaces, not full-tree witnesses.",
+  "rows": [
+    {
+      "leaf_count": 4,
+      "tree_depth": 2,
+      "full_tree_calldata_bytes": 39,
+      "crystal_anchor_package_bytes": 111,
+      "domain_merkle_membership_bytes": 101,
+      "ssz_generalized_index_proof_bytes": 105,
+      "sparse_merkle_uint8_key_bytes": 290,
+      "anchored_v1_crystal_witness_bytes": 27,
+      "anchored_v1_merkle_proof_bytes": 67,
+      "anchored_v1_local_path_bytes": 126
+    },
+    {
+      "leaf_count": 8,
+      "tree_depth": 3,
+      "full_tree_calldata_bytes": 79,
+      "crystal_anchor_package_bytes": 151,
+      "domain_merkle_membership_bytes": 133,
+      "ssz_generalized_index_proof_bytes": 137,
+      "sparse_merkle_uint8_key_bytes": 290,
+      "anchored_v1_crystal_witness_bytes": 36,
+      "anchored_v1_merkle_proof_bytes": 100,
+      "anchored_v1_local_path_bytes": 168
+    },
+    {
+      "leaf_count": 16,
+      "tree_depth": 4,
+      "full_tree_calldata_bytes": 159,
+      "crystal_anchor_package_bytes": 231,
+      "domain_merkle_membership_bytes": 165,
+      "ssz_generalized_index_proof_bytes": 169,
+      "sparse_merkle_uint8_key_bytes": 290,
+      "anchored_v1_crystal_witness_bytes": 45,
+      "anchored_v1_merkle_proof_bytes": 133,
+      "anchored_v1_local_path_bytes": 210
+    },
+    {
+      "leaf_count": 32,
+      "tree_depth": 5,
+      "full_tree_calldata_bytes": 319,
+      "crystal_anchor_package_bytes": 391,
+      "domain_merkle_membership_bytes": 197,
+      "ssz_generalized_index_proof_bytes": 201,
+      "sparse_merkle_uint8_key_bytes": 290,
+      "anchored_v1_crystal_witness_bytes": 54,
+      "anchored_v1_merkle_proof_bytes": 166,
+      "anchored_v1_local_path_bytes": 252
+    },
+    {
+      "leaf_count": 64,
+      "tree_depth": 6,
+      "full_tree_calldata_bytes": 639,
+      "crystal_anchor_package_bytes": 711,
+      "domain_merkle_membership_bytes": 229,
+      "ssz_generalized_index_proof_bytes": 233,
+      "sparse_merkle_uint8_key_bytes": 290,
+      "anchored_v1_crystal_witness_bytes": 63,
+      "anchored_v1_merkle_proof_bytes": 199,
+      "anchored_v1_local_path_bytes": 294
+    },
+    {
+      "leaf_count": 128,
+      "tree_depth": 7,
+      "full_tree_calldata_bytes": 1279,
+      "crystal_anchor_package_bytes": 1351,
+      "domain_merkle_membership_bytes": 261,
+      "ssz_generalized_index_proof_bytes": 265,
+      "sparse_merkle_uint8_key_bytes": 290,
+      "anchored_v1_crystal_witness_bytes": 72,
+      "anchored_v1_merkle_proof_bytes": 232,
+      "anchored_v1_local_path_bytes": 336
+    },
+    {
+      "leaf_count": 256,
+      "tree_depth": 8,
+      "full_tree_calldata_bytes": 2559,
+      "crystal_anchor_package_bytes": 2631,
+      "domain_merkle_membership_bytes": 293,
+      "ssz_generalized_index_proof_bytes": 297,
+      "sparse_merkle_uint8_key_bytes": 290,
+      "anchored_v1_crystal_witness_bytes": 81,
+      "anchored_v1_merkle_proof_bytes": 265,
+      "anchored_v1_local_path_bytes": 378
+    },
+    {
+      "leaf_count": 512,
+      "tree_depth": 9,
+      "full_tree_calldata_bytes": 5119,
+      "crystal_anchor_package_bytes": 5191,
+      "domain_merkle_membership_bytes": 325,
+      "ssz_generalized_index_proof_bytes": 329,
+      "sparse_merkle_uint8_key_bytes": 290,
+      "anchored_v1_crystal_witness_bytes": 90,
+      "anchored_v1_merkle_proof_bytes": 298,
+      "anchored_v1_local_path_bytes": 420
+    }
+  ]
+}

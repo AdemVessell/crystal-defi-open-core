@@ -1,0 +1,309 @@
+{
+  "generated_at": "2026-06-10T12:59:40Z",
+  "seed": 1337,
+  "parameters": {
+    "exhaustive_leaves": 6,
+    "grind_leaves": 8,
+    "campaigns": 12,
+    "max_attempts": 50000
+  },
+  "elapsed_seconds": 41.767,
+  "verdict": "Crystal collisions were found under the tested same-multiset adversary. Do not use unanchored Crystal roots as adversarial commitments; frame Crystal as a localization/checking layer.",
+  "exhaustive": [
+    {
+      "leaf_count": 2,
+      "candidates": 2,
+      "crystal_unique_roots": 2,
+      "crystal_collision_count": 0,
+      "sha8_unique_roots": 2,
+      "sha8_collision_count": 0,
+      "first_crystal_collision": null,
+      "first_sha8_collision": null
+    },
+    {
+      "leaf_count": 3,
+      "candidates": 12,
+      "crystal_unique_roots": 12,
+      "crystal_collision_count": 0,
+      "sha8_unique_roots": 12,
+      "sha8_collision_count": 0,
+      "first_crystal_collision": null,
+      "first_sha8_collision": null
+    },
+    {
+      "leaf_count": 4,
+      "candidates": 120,
+      "crystal_unique_roots": 120,
+      "crystal_collision_count": 0,
+      "sha8_unique_roots": 120,
+      "sha8_collision_count": 0,
+      "first_crystal_collision": null,
+      "first_sha8_collision": null
+    },
+    {
+      "leaf_count": 5,
+      "candidates": 1680,
+      "crystal_unique_roots": 1570,
+      "crystal_collision_count": 110,
+      "sha8_unique_roots": 1680,
+      "sha8_collision_count": 0,
+      "first_crystal_collision": {
+        "root": [
+          63,
+          6,
+          76,
+          0,
+          16,
+          64,
+          0,
+          31
+        ],
+        "tree_a": "(1,(2,(3,(4,5))))",
+        "tree_b": "(1,(2,(5,(4,3))))"
+      },
+      "first_sha8_collision": null
+    },
+    {
+      "leaf_count": 6,
+      "candidates": 30240,
+      "crystal_unique_roots": 26702,
+      "crystal_collision_count": 3538,
+      "sha8_unique_roots": 30240,
+      "sha8_collision_count": 0,
+      "first_crystal_collision": {
+        "root": [
+          31,
+          134,
+          136,
+          128,
+          48,
+          212,
+          60,
+          31
+        ],
+        "tree_a": "(1,(2,(3,(4,(5,6)))))",
+        "tree_b": "(1,(2,(3,(4,(6,5)))))"
+      },
+      "first_sha8_collision": null
+    }
+  ],
+  "grinding_campaigns": [
+    {
+      "hit": false,
+      "attempts": 50000,
+      "leaf_count": 8,
+      "target_tree": "(((159,94),(237,((147,182),188))),(150,137))",
+      "root": [
+        76,
+        93,
+        21,
+        139,
+        83,
+        22,
+        56,
+        245
+      ],
+      "sha256_truncated_8": "5ce292f99149a369",
+      "sha256_full": "5ce292f99149a369731cb47b056ed31b2bafb4d56e0162c4393ff9b92f2475f2"
+    },
+    {
+      "hit": false,
+      "attempts": 50000,
+      "leaf_count": 8,
+      "target_tree": "((44,((14,227),(253,167))),((150,94),110))",
+      "root": [
+        69,
+        1,
+        250,
+        239,
+        184,
+        8,
+        237,
+        10
+      ],
+      "sha256_truncated_8": "37c5887c73d7de05",
+      "sha256_full": "37c5887c73d7de05618eb7e421c360bd91cae3a48ef4b9170aab1effc9097fac"
+    },
+    {
+      "hit": false,
+      "attempts": 50000,
+      "leaf_count": 8,
+      "target_tree": "((221,(17,159)),(69,(((240,169),110),79)))",
+      "root": [
+        84,
+        56,
+        219,
+        26,
+        72,
+        223,
+        69,
+        190
+      ],
+      "sha256_truncated_8": "941c79a990255749",
+      "sha256_full": "941c79a99025574955e8b29326cd812e0766cf8b8d3f9c2ac86118269c6b21c9"
+    },
+    {
+      "hit": false,
+      "attempts": 50000,
+      "leaf_count": 8,
+      "target_tree": "(((((3,198),89),84),148),(24,(33,159)))",
+      "root": [
+        127,
+        85,
+        68,
+        241,
+        98,
+        21,
+        176,
+        15
+      ],
+      "sha256_truncated_8": "69fcfb9373dcceef",
+      "sha256_full": "69fcfb9373dcceefdc9a1b4fb20e2ce02ed60f885d44900294a1a05b6439254b"
+    },
+    {
+      "hit": false,
+      "attempts": 50000,
+      "leaf_count": 8,
+      "target_tree": "(((185,(134,244)),(59,207)),((132,189),38))",
+      "root": [
+        199,
+        13,
+        78,
+        195,
+        130,
+        46,
+        12,
+        3
+      ],
+      "sha256_truncated_8": "0872591dad00c8d2",
+      "sha256_full": "0872591dad00c8d28242e027bf94d5fcc2eac2731749e9f9cc03282a1d0987f5"
+    },
+    {
+      "hit": false,
+      "attempts": 50000,
+      "leaf_count": 8,
+      "target_tree": "((((17,(39,85)),186),37),(5,(151,86)))",
+      "root": [
+        52,
+        62,
+        196,
+        17,
+        112,
+        5,
+        249,
+        89
+      ],
+      "sha256_truncated_8": "ece708af5aaf418f",
+      "sha256_full": "ece708af5aaf418ff1d9512ab40af978740f8120d195e950399b6a326bb8f9f9"
+    },
+    {
+      "hit": false,
+      "attempts": 50000,
+      "leaf_count": 8,
+      "target_tree": "((116,250),((69,((6,187),197)),(108,2)))",
+      "root": [
+        118,
+        161,
+        82,
+        27,
+        136,
+        170,
+        100,
+        31
+      ],
+      "sha256_truncated_8": "7502fd4367e68eb8",
+      "sha256_full": "7502fd4367e68eb86c41fc175236dd51160ec3a3d0509ae001de508aa5301ab4"
+    },
+    {
+      "hit": false,
+      "attempts": 50000,
+      "leaf_count": 8,
+      "target_tree": "((((123,94),((63,(39,157)),182)),186),111)",
+      "root": [
+        222,
+        215,
+        87,
+        224,
+        96,
+        225,
+        45,
+        197
+      ],
+      "sha256_truncated_8": "b9d5be05993961e8",
+      "sha256_full": "b9d5be05993961e84ad744449e0c91fe7a1277d72ba22f8d3414c06dced1f363"
+    },
+    {
+      "hit": false,
+      "attempts": 50000,
+      "leaf_count": 8,
+      "target_tree": "((((232,(169,142)),221),105),((229,243),122))",
+      "root": [
+        180,
+        28,
+        198,
+        67,
+        64,
+        64,
+        60,
+        75
+      ],
+      "sha256_truncated_8": "5e196a69539d945e",
+      "sha256_full": "5e196a69539d945e0d3fbb676ff2ffe9c159be9df220df6a0bf03ddff43ae146"
+    },
+    {
+      "hit": false,
+      "attempts": 50000,
+      "leaf_count": 8,
+      "target_tree": "((((55,((25,118),89)),166),240),(3,179))",
+      "root": [
+        55,
+        141,
+        246,
+        152,
+        255,
+        134,
+        129,
+        131
+      ],
+      "sha256_truncated_8": "a7674a0ecaa316df",
+      "sha256_full": "a7674a0ecaa316dfacbffe4e83dcf1f1c939d94a9647f65682347a5af464b4b6"
+    },
+    {
+      "hit": false,
+      "attempts": 50000,
+      "leaf_count": 8,
+      "target_tree": "((224,(2,((136,(57,142)),197))),(127,49))",
+      "root": [
+        212,
+        93,
+        246,
+        192,
+        176,
+        222,
+        73,
+        2
+      ],
+      "sha256_truncated_8": "e2f4c21f80f13d49",
+      "sha256_full": "e2f4c21f80f13d49e320e97c6ecf29db2008a606fbcb02830ae63380e0186d2e"
+    },
+    {
+      "hit": false,
+      "attempts": 50000,
+      "leaf_count": 8,
+      "target_tree": "(109,((1,103),((((111,117),240),128),189)))",
+      "root": [
+        71,
+        14,
+        199,
+        27,
+        231,
+        136,
+        204,
+        51
+      ],
+      "sha256_truncated_8": "654f87f13523f7a2",
+      "sha256_full": "654f87f13523f7a27d908c2399564052cb819471fa50dcdf599a55be0dccb7d4"
+    }
+  ],
+  "no_hit_attempts_mean": 50000
+}
