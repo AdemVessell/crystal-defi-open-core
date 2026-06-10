@@ -65,13 +65,33 @@ for funding of closed-source work
 Attach or link:
 
 ```text
-open-core repository or packet
+open-core repository: https://github.com/AdemVessell/crystal-defi-open-core
+latest release: https://github.com/AdemVessell/crystal-defi-open-core/releases/tag/v0.1.3-open-core
 docs/PUBLIC_TECHNICAL_REPORT.md
 docs/REVIEWER_PACKET.md
+docs/EXTERNAL_REPRODUCTION_LOG.md
 docs/ETHEREUM_ESP_GRANT_PACKET.md
 demo/results/devnet_observatory_latest.md
 research/results/proof_payload_baselines_latest.md
 research/results/adversarial_grinding_latest.md
+```
+
+## Current Reproduction Evidence
+
+As of 2026-06-11:
+
+```text
+Grok / Arkhe_Grok completed two machine-assisted fresh-clone reproduction runs
+against public commit 8fbbcc1f7edd3216ca3d0434b00e42fb48744e50.
+
+Result: PASS / PASS.
+
+Reproduced: 67 Foundry tests, Python compile, research harnesses, component
+equivalence, local Anvil devnet lifecycle, open-core boundary scan, and
+grant-readiness check with no blocking items.
+
+Boundary: not a human security audit, endorsement, or production-readiness
+sign-off.
 ```
 
 ## Fit Language

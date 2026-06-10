@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-10T17:51:37.630666+00:00",
+  "generated_at_utc": "2026-06-10T18:14:20.712151+00:00",
   "source": "crystal-defi source workspace",
   "output": "crystal-defi-open-core package",
   "license": "Apache-2.0",
@@ -23,7 +23,7 @@
     {
       "path": "README.md",
       "copied": true,
-      "sha256": "e13054600ca8cc5b4df8811d6461fb79f00309d4a394917e0809bb730d3b4dcb"
+      "sha256": "2809fc5a26fababff67e72e08e97a6ab2422d15b5c7ed46c6929ff3ea643a15e"
     },
     {
       "path": "foundry.toml",
@@ -88,32 +88,32 @@
     {
       "path": "research/results/adversarial_grinding_latest.json",
       "copied": true,
-      "sha256": "26e2913d2d9ee471032c02a921725ba88bffc481540863059752a6c37020454d"
+      "sha256": "b52026e68b2c95339eb82f644772964820baf32bbcf3a180b842b1d7aa8115a2"
     },
     {
       "path": "research/results/adversarial_grinding_latest.md",
       "copied": true,
-      "sha256": "df5d0b1126b69866d795f4f71af693fdd8a8bb8c44f678f16199df10fd873848"
+      "sha256": "9982148fccdab9dfd6a34389cadfc6579af15d99965464eb4e00e842b1222649"
     },
     {
       "path": "research/results/structural_baselines_latest.json",
       "copied": true,
-      "sha256": "b4dfcdcb4224b6789812b9dc1048279e0268c0a4ccc6fd08671be54208dfa289"
+      "sha256": "f69e0e4237422f864d1daa761ea824de30f4b1cfca9afe14612861b26c32e537"
     },
     {
       "path": "research/results/structural_baselines_latest.md",
       "copied": true,
-      "sha256": "df29568cc95d5a1eb56747fe0a6696d37c55721a300c1a9bed34295da890c626"
+      "sha256": "0a9560e1f14ac43bb8c0dda772f02d15bcdbef0bfcb22e02f4c9e5b9c1e037d8"
     },
     {
       "path": "research/results/proof_payload_baselines_latest.json",
       "copied": true,
-      "sha256": "cb5b85f7a59688257b7e06aef4f2b06bb51b54f593c7e92776d8875073aa8eb4"
+      "sha256": "7d5ed38d113bf4e69068536b2ae091190ac1cfdd8c9831498a1b8b6e2dafe505"
     },
     {
       "path": "research/results/proof_payload_baselines_latest.md",
       "copied": true,
-      "sha256": "ea23e5fc83aa2efb59ee4a2c0035c1d0e9ddbf51ced64e0369fb052ce3aa0d53"
+      "sha256": "daa20496e24269c88a4d375fcd2db93e2a724c52e2d46ea05ac20360fc7ceac0"
     },
     {
       "path": "docs/ANCHORED_CHALLENGE_PAYLOAD_V0.md",
@@ -143,7 +143,7 @@
     {
       "path": "docs/ESP_OFFICE_HOURS_PREP.md",
       "copied": true,
-      "sha256": "b6953a55cafb0d94c9a84538b3b96100924cf546922f12667893c2aaceb7d268"
+      "sha256": "71ac2d05ea957a516a79663b5cd9ccb3783eec23495b5954f8260d825add9a80"
     },
     {
       "path": "docs/FRESH_CLONE_VERIFICATION.md",
@@ -176,6 +176,11 @@
       "sha256": "4329d9f24270c066b97f05b89fb25ceaa42a483215a176108bd6419f0d9a1e07"
     },
     {
+      "path": "docs/EXTERNAL_REPRODUCTION_LOG.md",
+      "copied": true,
+      "sha256": "673d42334c4138c11294f4a2d900826954b9d645fc2f06c56c2a23c3ee8d71e8"
+    },
+    {
       "path": "docs/TESTNET_READINESS_CHECKLIST.md",
       "copied": true,
       "sha256": "545dd41151dec7d2036f9eb7b425c734235569396ba59c853cc1c2fdd1b37919"
@@ -188,12 +193,12 @@
     {
       "path": "demo/results/devnet_observatory_latest.json",
       "copied": true,
-      "sha256": "ebe9a831474d7bf595eaf41f3b27192708d4b7df40ed17c7a85f3432d7051912"
+      "sha256": "afa9ed3e866c9807df82a135a24ab5b325cc8651236c90aa86360b2d403c9c83"
     },
     {
       "path": "demo/results/devnet_observatory_latest.md",
       "copied": true,
-      "sha256": "7b14152c11dd62fad755c821d01e16e919fe51c4ef6fe00bfa21ed0b992893fa"
+      "sha256": "97895ada8a8334e52014a69e23f9bbcac1409003e12416c4dff83629f2c0f6b0"
     },
     {
       "path": "scripts/grant_readiness_check.py",
@@ -208,7 +213,7 @@
     {
       "path": "scripts/export_open_core.py",
       "copied": true,
-      "sha256": "6ba65542c213304b3489738440d61c7c03fc460fb3ce963adcee9de192d49e4f"
+      "sha256": "13f3ef689334a0067cd7f36470a12995a4cdd0fc6c643c2150cb22659083e97f"
     },
     {
       "path": "scripts/devnet_observatory_demo.py",

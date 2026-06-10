@@ -1,6 +1,6 @@
 # Crystal DeFi Structural Baseline Harness
 
-Generated: `2026-06-10T12:59:00Z`
+Generated: `2026-06-10T18:12:38Z`
 
 ## Summary
 

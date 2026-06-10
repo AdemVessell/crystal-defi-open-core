@@ -1,6 +1,6 @@
 # Crystal DeFi Proof Payload Baselines
 
-Generated: `2026-06-10T16:27:04Z`
+Generated: `2026-06-10T18:12:36Z`
 
 ## Boundary
 

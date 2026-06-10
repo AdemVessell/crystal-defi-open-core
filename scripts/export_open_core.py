@@ -55,6 +55,7 @@ FILES = [
     "docs/PRODUCTION_HARDENING_PLAN.md",
     "docs/PUBLIC_TECHNICAL_REPORT.md",
     "docs/REVIEWER_PACKET.md",
+    "docs/EXTERNAL_REPRODUCTION_LOG.md",
     "docs/TESTNET_READINESS_CHECKLIST.md",
     "docs/THIRD_PARTY_VERIFICATION_REQUEST.md",
     "demo/results/devnet_observatory_latest.json",
