@@ -115,7 +115,7 @@ commercial token product
 production DeFi security product
 slashing or bonding mechanism
 closed-source CrystalDefi extensions
-CrystalSocial or unrelated side projects
+unrelated side projects
 ```
 
 ## ESP Route

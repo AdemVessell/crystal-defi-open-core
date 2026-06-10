@@ -1,7 +1,7 @@
 {
   "generated_at_utc": "2026-06-10T17:04:49.300276+00:00",
-  "source_root": "/Users/stevenson/Desktop/Arkh\u0113 Sober Station/crystal-defi",
-  "output_root": "/Users/stevenson/Desktop/Arkh\u0113 Sober Station/crystal-defi-open-core",
+  "source": "crystal-defi source workspace",
+  "output": "crystal-defi-open-core package",
   "license": "Apache-2.0",
   "technical_claim": "Crystal localizes; hash anchors prove.",
   "entries": [

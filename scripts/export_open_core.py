@@ -422,8 +422,8 @@ def main() -> int:
 
     manifest = {
         "generated_at_utc": datetime.now(timezone.utc).isoformat(),
-        "source_root": str(ROOT),
-        "output_root": str(output),
+        "source": "crystal-defi source workspace",
+        "output": "crystal-defi-open-core package",
         "license": "Apache-2.0",
         "technical_claim": "Crystal localizes; hash anchors prove.",
         "entries": manifest_entries,
