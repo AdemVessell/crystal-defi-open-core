@@ -114,12 +114,17 @@ local Anvil challenge lifecycle evidence
 grant/reviewer packet discipline
 ```
 
-The BLE mesh direction is currently a direction note, not a public production
-implementation in this repository.
+The BLE mesh direction is currently a direction note in this repository, not a
+production implementation here.
 
-Work in the broader CrystalChain lane has begun testing BLE-sized frames and
-simulated sync behavior, but that lane must be exported as its own reproducible
-public artifact before the public claim can become:
+The first separate public packet is now:
+
+```text
+https://github.com/AdemVessell/crystal-chain-ble-mesh
+```
+
+That packet is a cloneable simulation artifact, not a production BLE
+implementation. It allows the public claim to become:
 
 ```text
 reviewers can clone this repo and reproduce the BLE mesh transcript
@@ -129,8 +134,8 @@ Until then, phrase the BLE work as:
 
 ```text
 current product direction
-local/private simulation evidence
-next public artifact
+public reference simulation evidence
+next implementation artifact
 ```
 
 Do not phrase it as:
