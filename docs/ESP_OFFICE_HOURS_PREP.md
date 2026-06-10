@@ -49,6 +49,9 @@ Would this fit better as a Wishlist application for monitoring/data-driven resea
 Is the Glamsterdam Wishlist a reasonable route if scoped as impact-analysis and monitoring tooling?
 Would ESP prefer a smaller public report/tooling grant before any protocol-game work?
 Are the current non-claims and open-core boundary sufficient for eligibility review?
+Given that production rollups already localize disputes through execution traces
+and state-transition games, is an observer-side structural alarm still within
+ESP's useful research/tooling scope?
 ```
 
 Do not ask:
@@ -66,10 +69,11 @@ Attach or link:
 
 ```text
 open-core repository: https://github.com/AdemVessell/crystal-defi-open-core
-latest release: https://github.com/AdemVessell/crystal-defi-open-core/releases/tag/v0.1.3-open-core
+latest release: https://github.com/AdemVessell/crystal-defi-open-core/releases/tag/v0.1.4-open-core
 docs/PUBLIC_TECHNICAL_REPORT.md
 docs/REVIEWER_PACKET.md
 docs/EXTERNAL_REPRODUCTION_LOG.md
+docs/ROLLUP_FIT_AND_PRIOR_ART_RESPONSE.md
 docs/ETHEREUM_ESP_GRANT_PACKET.md
 demo/results/devnet_observatory_latest.md
 research/results/proof_payload_baselines_latest.md

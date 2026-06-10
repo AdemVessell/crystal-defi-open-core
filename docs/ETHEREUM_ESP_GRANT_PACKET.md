@@ -30,6 +30,7 @@ Do not pitch this as:
 ```text
 new blockchain
 standalone fraud-proof system
+rollup fraud-proof replacement
 Merkle replacement
 production DeFi security product
 token or commercial app
@@ -117,6 +118,38 @@ In one sentence:
 
 ```text
 Crystal localizes; hash anchors prove.
+```
+
+## Prior-Art Boundary
+
+Current prior-art review makes the grant framing narrower:
+
+```text
+production rollups already localize disputes through deterministic execution
+trace and state-transition games
+SSZ, Merkle, sparse Merkle, and Verkle-style systems already provide proof
+locality at their layers
+CrystalDefi does not currently beat Merkle/SSZ same-query proof sizes
+```
+
+The grant-worthy question is therefore not:
+
+```text
+Does Crystal replace the standard proof systems?
+```
+
+It is:
+
+```text
+Can a compact non-associative structural signal help watcher/indexer tooling
+route attention to meaningful shape disagreements while standard anchors remain
+the proof layer?
+```
+
+Full boundary note:
+
+```text
+docs/ROLLUP_FIT_AND_PRIOR_ART_RESPONSE.md
 ```
 
 ## Current Evidence

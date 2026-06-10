@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-10T18:14:20.712151+00:00",
+  "generated_at_utc": "2026-06-10T18:24:49.483722+00:00",
   "source": "crystal-defi source workspace",
   "output": "crystal-defi-open-core package",
   "license": "Apache-2.0",
@@ -23,7 +23,7 @@
     {
       "path": "README.md",
       "copied": true,
-      "sha256": "2809fc5a26fababff67e72e08e97a6ab2422d15b5c7ed46c6929ff3ea643a15e"
+      "sha256": "8e0cbdc17c17ab227ec834a6c8db92ecefb7d7cbc8c77401afbf51b536676cb2"
     },
     {
       "path": "foundry.toml",
@@ -138,12 +138,12 @@
     {
       "path": "docs/ETHEREUM_ESP_GRANT_PACKET.md",
       "copied": true,
-      "sha256": "ee0b95391c6122232ceb58f81c322ebceb911deb1541b30fd0a2c529fae2e46c"
+      "sha256": "c47a308bd40bd3e7c14bd85179c7c5f871840ede9f3275303a91e52cc0115d9f"
     },
     {
       "path": "docs/ESP_OFFICE_HOURS_PREP.md",
       "copied": true,
-      "sha256": "71ac2d05ea957a516a79663b5cd9ccb3783eec23495b5954f8260d825add9a80"
+      "sha256": "b1df4ec24ce8233a5115773141f0cbee5d3270a871d3b50209c54881a8db9ca5"
     },
     {
       "path": "docs/FRESH_CLONE_VERIFICATION.md",
@@ -158,7 +158,7 @@
     {
       "path": "docs/PRIOR_ART_POSITIONING_APPENDIX.md",
       "copied": true,
-      "sha256": "fe7eca22c30073a893cb37620f54e15318d804f6b98f16e3a6f4f1db28eef5e8"
+      "sha256": "2c4b9f31e4bb0be261ab27af5aa7893887da42eccc9e03ba3b4a4f822218a155"
     },
     {
       "path": "docs/PRODUCTION_HARDENING_PLAN.md",
@@ -168,7 +168,7 @@
     {
       "path": "docs/PUBLIC_TECHNICAL_REPORT.md",
       "copied": true,
-      "sha256": "6fb5c6141738442e0c17ec75e7fc4af47b41904cb381922679a8af9fa4e13565"
+      "sha256": "a9f09cdec9295a96b2701f169697629a7962c03d2a681cabc0bdb553af500e60"
     },
     {
       "path": "docs/REVIEWER_PACKET.md",
@@ -179,6 +179,11 @@
       "path": "docs/EXTERNAL_REPRODUCTION_LOG.md",
       "copied": true,
       "sha256": "673d42334c4138c11294f4a2d900826954b9d645fc2f06c56c2a23c3ee8d71e8"
+    },
+    {
+      "path": "docs/ROLLUP_FIT_AND_PRIOR_ART_RESPONSE.md",
+      "copied": true,
+      "sha256": "5132317b1788555082b4d7e6abc51d3f997a03ec1bc6d0a1d720eef64036c22b"
     },
     {
       "path": "docs/TESTNET_READINESS_CHECKLIST.md",
@@ -203,7 +208,7 @@
     {
       "path": "scripts/grant_readiness_check.py",
       "copied": true,
-      "sha256": "c3ce6e38279507511151a31fc234e36446308390b08e21c4b2609ce23794d834"
+      "sha256": "0bc44f0d6a42f898a0af1802ab81bf8b104e65603ec5ab8ae6a81e9153087889"
     },
     {
       "path": "scripts/check_open_core_boundary.py",
@@ -213,7 +218,7 @@
     {
       "path": "scripts/export_open_core.py",
       "copied": true,
-      "sha256": "13f3ef689334a0067cd7f36470a12995a4cdd0fc6c643c2150cb22659083e97f"
+      "sha256": "fe2512f37bee3cd40679f9f28f608071f66870fac15a8f41671bb6dd80545466"
     },
     {
       "path": "scripts/devnet_observatory_demo.py",

@@ -145,6 +145,7 @@ def main() -> int:
         "docs/ESP_OFFICE_HOURS_PREP.md",
         "docs/FRESH_CLONE_VERIFICATION.md",
         "docs/PRIOR_ART_POSITIONING_APPENDIX.md",
+        "docs/ROLLUP_FIT_AND_PRIOR_ART_RESPONSE.md",
         "docs/THIRD_PARTY_VERIFICATION_REQUEST.md",
         "CONTRIBUTING.md",
         "SECURITY.md",

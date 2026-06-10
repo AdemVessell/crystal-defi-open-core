@@ -136,6 +136,32 @@ Unanchored Crystal roots must not be used as adversarial commitments.
 This negative result is part of the value of the project. It sharply bounds the
 claim and motivates the hash/Merkle anchored architecture.
 
+## Prior-Art And Fit Update
+
+External prior-art review reinforced a narrower position:
+
+```text
+localizing before proving is already standard in Merkle/SSZ/sparse Merkle and
+rollup dispute systems
+production optimistic rollups localize disputes over deterministic execution
+traces and state-transition claims, not transaction-tree parenthesization
+the current V1 local path is larger than same-query Merkle and SSZ-style proofs
+at the tested 4-through-512-leaf depths
+```
+
+Consequence:
+
+```text
+CrystalDefi should be evaluated as observer-side structural monitoring and
+path-routing research, not as a missing rollup fraud-proof primitive.
+```
+
+See:
+
+```text
+docs/ROLLUP_FIT_AND_PRIOR_ART_RESPONSE.md
+```
+
 ## Non-Claims
 
 This prototype does not currently prove:

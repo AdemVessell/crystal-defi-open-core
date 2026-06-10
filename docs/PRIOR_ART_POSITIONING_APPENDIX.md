@@ -30,6 +30,34 @@ attention to a suspicious local path, while cryptographic anchors remain the
 binding proof surface.
 ```
 
+## 2026-06-11 Hostile-Review Update
+
+An outside prior-art critique sharpened the boundary:
+
+```text
+standard Merkle/SSZ/sparse/rollup systems already localize authenticated
+disagreements at their own layers
+production rollup fault proofs localize over output roots, execution traces,
+state transitions, and VM steps, not transaction-tree parenthesization classes
+CrystalDefi's current same-query payloads are larger than Merkle/SSZ baselines
+at the tested 4-through-512-leaf depths
+Crystal collisions under same-multiset adversarial search forbid unanchored
+commitment claims
+```
+
+Result:
+
+```text
+The broad rollup-primitive pitch is rejected.
+The narrower observer-side alarm and path-routing hypothesis remains.
+```
+
+Full response:
+
+```text
+docs/ROLLUP_FIT_AND_PRIOR_ART_RESPONSE.md
+```
+
 ## Adjacent Work
 
 ### Ethereum Modified Merkle Patricia Trie
@@ -222,4 +250,3 @@ data availability solution
 4. Define valid respondent counterproof semantics before adding contract entrypoints.
 5. Ask an independent reviewer to run docs/FRESH_CLONE_VERIFICATION.md.
 ```
-
