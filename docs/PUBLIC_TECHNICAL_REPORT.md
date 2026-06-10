@@ -112,10 +112,10 @@ cd ../crystal-defi-open-core
 forge test -vv
 python3 scripts/devnet_observatory_demo.py
 python3 scripts/grant_readiness_check.py
-run the BUSL marker scan against the exported tree
+run `python3 scripts/check_open_core_boundary.py` against the exported tree
 ```
 
-The BUSL scan should produce no matches.
+The boundary scan should report `ok: true`.
 
 ## Negative Results
 

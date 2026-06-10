@@ -129,7 +129,7 @@ forge tests pass in source and open core
 Python compile passes in source and open core
 devnet demos pass in source and open core
 grant-readiness gates pass in source and open core
-open-core BUSL marker scan returns no matches
+open-core boundary scan reports ok: true
 cache/out/__pycache__ artifacts are removed after validation
 ```
 
@@ -154,10 +154,10 @@ forge test -vv
 python3 -m py_compile sdk/crystal_committer.py watcher/crystal_watcher.py research/*.py scripts/*.py
 python3 scripts/devnet_observatory_demo.py
 python3 scripts/grant_readiness_check.py
-run the BUSL marker scan against the exported tree
+run `python3 scripts/check_open_core_boundary.py` against the exported tree
 ```
 
-The BUSL scan is expected to exit with no matches.
+The boundary scan is expected to report `ok: true`.
 
 ## ESP Route
 

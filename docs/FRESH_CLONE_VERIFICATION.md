@@ -49,25 +49,14 @@ python3 research/baseline_structural_harness.py
 python3 research/proof_payload_baseline_harness.py
 python3 research/component_table_equivalence.py
 python3 scripts/devnet_observatory_demo.py
+python3 scripts/check_open_core_boundary.py
 python3 scripts/grant_readiness_check.py
 ```
 
-BUSL marker scan:
-
-```bash
-rg -n "SPDX-License-Identifier: BUSL|BUSL-1.1 -|Business Source" . || true
-```
-
-Expected BUSL result:
+Expected boundary-scan result:
 
 ```text
-no matches
-```
-
-If `rg` is not installed:
-
-```bash
-grep -R -n -E "SPDX-License-Identifier: BUSL|BUSL-1.1 -|Business Source" . || true
+ok: true
 ```
 
 ## Expected High-Level Results
@@ -79,7 +68,7 @@ Research harnesses regenerate result files.
 Component-table equivalence check passes.
 Devnet demo reports ok: true.
 Grant-readiness check reports no blocking items.
-BUSL marker scan reports no matches.
+Open-core boundary scan reports ok: true.
 ```
 
 The devnet demo writes fresh local transaction hashes and timestamps. Those
@@ -95,7 +84,7 @@ the Solidity test suite runs
 the Python SDK, watcher, scripts, and research harnesses compile
 the local Anvil challenge lifecycle reproduces
 the grant-readiness gate has no blockers
-the open-core export does not contain known BUSL markers
+the open-core source boundary does not contain excluded license markers
 ```
 
 This does not verify:
@@ -131,4 +120,3 @@ Unexpected output:
 Did any command require private keys or funded accounts?
 No / Yes, explain:
 ```
-

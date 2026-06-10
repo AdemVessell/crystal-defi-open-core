@@ -50,8 +50,8 @@ cd ../crystal-defi-open-core
 forge test -vv
 python3 -m py_compile sdk/crystal_committer.py watcher/crystal_watcher.py research/*.py scripts/*.py
 python3 scripts/devnet_observatory_demo.py
+python3 scripts/check_open_core_boundary.py
 python3 scripts/grant_readiness_check.py
-run the BUSL marker scan against the exported tree
 ```
 
 Expected result:
@@ -60,8 +60,8 @@ Expected result:
 Foundry tests pass.
 Python compile passes.
 Devnet demo reports ok: true.
+Open-core boundary scan reports ok: true.
 Grant-readiness gate has no blocking items.
-Open-core BUSL scan returns no matches.
 ```
 
 ## Current Devnet State Transitions

@@ -22,6 +22,8 @@ DEFAULT_OUTPUT = ROOT.parent / "crystal-defi-open-core"
 
 FILES = [
     ".gitignore",
+    "CONTRIBUTING.md",
+    "SECURITY.md",
     "README.md",
     "foundry.toml",
     "contracts/CrystalVerifier.sol",
@@ -47,14 +49,18 @@ FILES = [
     "docs/CRYSTALDEFI_LONG_TERM_EXECUTION_PLAN.md",
     "docs/ETHEREUM_ESP_GRANT_PACKET.md",
     "docs/ESP_OFFICE_HOURS_PREP.md",
+    "docs/FRESH_CLONE_VERIFICATION.md",
     "docs/LOCAL_CRYSTAL_WITNESS_V1.md",
+    "docs/PRIOR_ART_POSITIONING_APPENDIX.md",
     "docs/PRODUCTION_HARDENING_PLAN.md",
     "docs/PUBLIC_TECHNICAL_REPORT.md",
     "docs/REVIEWER_PACKET.md",
     "docs/TESTNET_READINESS_CHECKLIST.md",
+    "docs/THIRD_PARTY_VERIFICATION_REQUEST.md",
     "demo/results/devnet_observatory_latest.json",
     "demo/results/devnet_observatory_latest.md",
     "scripts/grant_readiness_check.py",
+    "scripts/check_open_core_boundary.py",
     "scripts/export_open_core.py",
     "scripts/devnet_observatory_demo.py",
 ]
@@ -429,7 +435,7 @@ def main() -> int:
         "entries": manifest_entries,
     }
     manifest_path = output / "OPEN_CORE_MANIFEST.json"
-    manifest_path.write_text(json.dumps(manifest, indent=2), encoding="utf-8")
+    manifest_path.write_text(json.dumps(manifest, indent=2) + "\n", encoding="utf-8")
 
     copied = sum(1 for item in manifest_entries if item.get("copied"))
     missing = [item["path"] for item in manifest_entries if not item.get("copied")]

@@ -11,7 +11,7 @@ runs. The requested review is intentionally narrow:
 Clone the public repo.
 Run the documented verification commands.
 Report whether the tests, research harnesses, devnet demo, readiness check, and
-BUSL marker scan reproduce from a clean checkout.
+open-core boundary scan reproduce from a clean checkout.
 ```
 
 Start with:
@@ -95,4 +95,3 @@ audit economic security
 endorse novelty
 review closed-source material
 ```
-

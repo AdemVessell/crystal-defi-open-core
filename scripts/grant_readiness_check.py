@@ -143,6 +143,11 @@ def main() -> int:
         "docs/CHALLENGE_GAME_STATE_MACHINE_V0.md",
         "docs/TESTNET_READINESS_CHECKLIST.md",
         "docs/ESP_OFFICE_HOURS_PREP.md",
+        "docs/FRESH_CLONE_VERIFICATION.md",
+        "docs/PRIOR_ART_POSITIONING_APPENDIX.md",
+        "docs/THIRD_PARTY_VERIFICATION_REQUEST.md",
+        "CONTRIBUTING.md",
+        "SECURITY.md",
         "contracts/CrystalVerifier.sol",
         "contracts/CrystalComponentVerifier.sol",
         "test/CrystalVerifier.t.sol",
@@ -151,6 +156,7 @@ def main() -> int:
         "research/baseline_structural_harness.py",
         "research/proof_payload_baseline_harness.py",
         "research/component_table_equivalence.py",
+        "scripts/check_open_core_boundary.py",
         "scripts/export_open_core.py",
         "scripts/devnet_observatory_demo.py",
     ]
@@ -198,6 +204,7 @@ def main() -> int:
                 "(10,(20,(30,40)))",
             ],
         ),
+        ("open_core_boundary", ["python3", "scripts/check_open_core_boundary.py"]),
         ("foundry_tests", ["forge", "test"]),
     ]
 

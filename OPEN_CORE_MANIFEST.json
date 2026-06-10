@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-10T17:04:49.300276+00:00",
+  "generated_at_utc": "2026-06-10T17:51:37.630666+00:00",
   "source": "crystal-defi source workspace",
   "output": "crystal-defi-open-core package",
   "license": "Apache-2.0",
@@ -11,9 +11,19 @@
       "sha256": "e859c3f972fb085d7290b5dd5eb4a586ca772bda1eb4b67c5c3c298c5020a2fa"
     },
     {
+      "path": "CONTRIBUTING.md",
+      "copied": true,
+      "sha256": "2bec99102d517477ab6aba078ee329cf1b785f8d1829ae36fb3031b91d40acb3"
+    },
+    {
+      "path": "SECURITY.md",
+      "copied": true,
+      "sha256": "6a6ec9c0448f8d32b5dab89411044e77f3d096a2ddfb3e0aeec7261c2a5c5131"
+    },
+    {
       "path": "README.md",
       "copied": true,
-      "sha256": "38359a9b6a59a5ba64dd598d25cae5503eded2e3cb5fbf9665bdfa8be07b74fc"
+      "sha256": "e13054600ca8cc5b4df8811d6461fb79f00309d4a394917e0809bb730d3b4dcb"
     },
     {
       "path": "foundry.toml",
@@ -123,7 +133,7 @@
     {
       "path": "docs/CRYSTALDEFI_LONG_TERM_EXECUTION_PLAN.md",
       "copied": true,
-      "sha256": "7203857daf16a84accfda5912f7837f1743f4bc207fb3dce9013409f9db18952"
+      "sha256": "2a43f5f41fcf50916ae3a5893feb06a241e8ba13361ac6946beb3f5dcbef0b0e"
     },
     {
       "path": "docs/ETHEREUM_ESP_GRANT_PACKET.md",
@@ -136,9 +146,19 @@
       "sha256": "b6953a55cafb0d94c9a84538b3b96100924cf546922f12667893c2aaceb7d268"
     },
     {
+      "path": "docs/FRESH_CLONE_VERIFICATION.md",
+      "copied": true,
+      "sha256": "d9821ddf5e331de1889728eb24d13b7240485b57daf002adc2ad8a452dc2755e"
+    },
+    {
       "path": "docs/LOCAL_CRYSTAL_WITNESS_V1.md",
       "copied": true,
       "sha256": "581cd21fb0470e6e1359ca0b89213be1d4ed2e95a47fb45dbe69887843358255"
+    },
+    {
+      "path": "docs/PRIOR_ART_POSITIONING_APPENDIX.md",
+      "copied": true,
+      "sha256": "fe7eca22c30073a893cb37620f54e15318d804f6b98f16e3a6f4f1db28eef5e8"
     },
     {
       "path": "docs/PRODUCTION_HARDENING_PLAN.md",
@@ -148,12 +168,12 @@
     {
       "path": "docs/PUBLIC_TECHNICAL_REPORT.md",
       "copied": true,
-      "sha256": "ad35c98a2c01511bf954f53ac9166041a106b79e1402f9a053b1be21a0ff5888"
+      "sha256": "6fb5c6141738442e0c17ec75e7fc4af47b41904cb381922679a8af9fa4e13565"
     },
     {
       "path": "docs/REVIEWER_PACKET.md",
       "copied": true,
-      "sha256": "d2ebe3b24836105a8cba27d9f19c501e4ff3542e9d8dd089cc47a5980bf7ae06"
+      "sha256": "4329d9f24270c066b97f05b89fb25ceaa42a483215a176108bd6419f0d9a1e07"
     },
     {
       "path": "docs/TESTNET_READINESS_CHECKLIST.md",
@@ -161,24 +181,34 @@
       "sha256": "545dd41151dec7d2036f9eb7b425c734235569396ba59c853cc1c2fdd1b37919"
     },
     {
+      "path": "docs/THIRD_PARTY_VERIFICATION_REQUEST.md",
+      "copied": true,
+      "sha256": "cca5f156a0b253174237e9c8c974ecf77d00bd5e5815bdd782ce8e5723417305"
+    },
+    {
       "path": "demo/results/devnet_observatory_latest.json",
       "copied": true,
-      "sha256": "8c91fbc3125b80ed1941800e7a05be58d016d3b52775f0c14aab8caab3a4c1cf"
+      "sha256": "ebe9a831474d7bf595eaf41f3b27192708d4b7df40ed17c7a85f3432d7051912"
     },
     {
       "path": "demo/results/devnet_observatory_latest.md",
       "copied": true,
-      "sha256": "b1a87cceec13543529fc6bacc789cf344afbb93511f061401298e9c397f823cd"
+      "sha256": "7b14152c11dd62fad755c821d01e16e919fe51c4ef6fe00bfa21ed0b992893fa"
     },
     {
       "path": "scripts/grant_readiness_check.py",
       "copied": true,
-      "sha256": "887658013bbbdf2faf9d01ff6cbfcf7d6098065765d439abc6b40ae9f1b9b979"
+      "sha256": "c3ce6e38279507511151a31fc234e36446308390b08e21c4b2609ce23794d834"
+    },
+    {
+      "path": "scripts/check_open_core_boundary.py",
+      "copied": true,
+      "sha256": "71c9562afae5e6173b8046d46efb3c6fce102e13c73dda163c2df3c74692e613"
     },
     {
       "path": "scripts/export_open_core.py",
       "copied": true,
-      "sha256": "c4c954b0002068b1e82a904eb2f55688c13f6a7b4ccf7b2303a92bd4cd40162f"
+      "sha256": "6ba65542c213304b3489738440d61c7c03fc460fb3ce963adcee9de192d49e4f"
     },
     {
       "path": "scripts/devnet_observatory_demo.py",
