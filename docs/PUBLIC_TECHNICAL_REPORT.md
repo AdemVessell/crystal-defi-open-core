@@ -162,6 +162,32 @@ See:
 docs/ROLLUP_FIT_AND_PRIOR_ART_RESPONSE.md
 ```
 
+## Product Direction Update
+
+The stronger current product direction is not an Ethereum rollup replacement.
+It is a local-first CrystalChain mesh sync layer:
+
+```text
+compact divergence beacons
+anchored segment repair
+hold-conflict partition merge behavior
+BLE-sized transport budget measurements
+```
+
+That direction is documented as a sober product thesis, not as a completed
+public implementation in this repository:
+
+```text
+docs/CRYSTALCHAIN_BLE_MESH_DIRECTION.md
+```
+
+This keeps the public claim split cleanly:
+
+```text
+CrystalDefi: reproducible Ethereum-adjacent science and review packet.
+CrystalChain/BLE: stronger product direction and next public artifact.
+```
+
 ## Non-Claims
 
 This prototype does not currently prove:

@@ -37,6 +37,20 @@ It may be useful where non-associative tree shape is meaningful, but the
 adversarial proof surface must remain the hash/Merkle anchor.
 ```
 
+The stronger product direction is not "CrystalDefi replaces rollup dispute
+games." It is a separate CrystalChain/local-first direction:
+
+```text
+compact mesh divergence beacons plus anchored segment repair under BLE-style
+transport budgets
+```
+
+See:
+
+```text
+docs/CRYSTALCHAIN_BLE_MESH_DIRECTION.md
+```
+
 ## Prior-Art Impact
 
 ### Sorted-Leaf Merkle Warnings

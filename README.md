@@ -84,6 +84,36 @@ transaction tree
   -> challenge path only when Crystal or observer agreement flags divergence
 ```
 
+## Current Product Direction
+
+The Ethereum/rollup-facing CrystalDefi packet is useful as reproducible science
+and public review evidence. It is not currently the strongest product claim.
+
+The stronger product thesis is now documented separately:
+
+```text
+local-first CrystalChain mesh ledger
+  -> compact divergence beacons
+  -> anchored segment repair
+  -> hold-conflict sync policy
+  -> BLE transport-budget experiments
+```
+
+See:
+
+```text
+docs/CRYSTALCHAIN_BLE_MESH_DIRECTION.md
+```
+
+That direction does not change the public safety boundary here:
+
+```text
+Crystal is a repair/localization router.
+BLAKE3, signatures, Merkle proofs, or native-chain anchors do the binding.
+This repository does not yet contain real BLE networking, BitChat integration,
+production mesh consensus, or adversarial mesh security.
+```
+
 ## Project Structure
 
 ```
@@ -229,6 +259,7 @@ Current reviewer-facing planning and handoff artifacts:
 docs/CRYSTALDEFI_LONG_TERM_EXECUTION_PLAN.md
 docs/PUBLIC_TECHNICAL_REPORT.md
 docs/REVIEWER_PACKET.md
+docs/CRYSTALCHAIN_BLE_MESH_DIRECTION.md
 docs/EXTERNAL_REPRODUCTION_LOG.md
 docs/ROLLUP_FIT_AND_PRIOR_ART_RESPONSE.md
 docs/FRESH_CLONE_VERIFICATION.md
